@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Final</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          src="./images/beuty_logo.png"
+          alt="logo"
+          class="logo"
+          height="200"
+          width="200"
+        />
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link" href="/index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link" >About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./team.html" class="nav-link" >Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./services.html" class="nav-link" >Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link" >Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-item active">
+          <img src="images/giselle-lazcano-TnyHlxVnyhk-unsplash.jpg" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/greg-trowman-jsuWg7IXx1k-unsplash.jpg" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/shari-sirotnak-oM5YoMhTf8E-unsplash.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+   
+
+    <h4>
+      <span style="color: white; font-size: 32px"
+        >Meet
+        <span style="color: rgb(53, 238, 251); font-size: 32px">Melyna</span>
+        <span style="color: white; font-size: 32px">Team</span>
+      </span>
+    </h4>
+
+    <div class="team-container">
+      <div class="flip-card-container">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/hair-stylist-biography-picture.jpg" alt="#" />
+            </figure>
+
+            <table>
+              <tr>
+                <th>Hair Stylist</th>
+              </tr>
+              <tr>
+                <td>Beate</td>
+              </tr>
+              <tr>
+                <td>Coe</td>
+              </tr>
+              <tr>
+                <td>555-1234</td>
+              </tr>
+              <tr>
+                <td>Beate@example.com</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/hair-stylist-biography-picture.jpg" alt="#" />
+            </figure>
+
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- /flip-card-container -->
+
+      <!-- flip-card-container -->
+      <div class="flip-card-container" style="--hue: 170">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/barber-biography-picture.jpg" alt="Image 2" />
+            </figure>
+            <table>
+              <tr>
+                <th>Assitant</th>
+              </tr>
+              <tr>
+                <td>John</td>
+              </tr>
+              <tr>
+                <td>Joe</td>
+              </tr>
+              <tr>
+                <td>555-1234</td>
+              </tr>
+              <tr>
+                <td>John@example.com</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/barber-biography-picture.jpg" alt="image-2" />
+            </figure>
+
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- /flip-card-container -->
+
+      <!-- flip-card-container -->
+      <div class="flip-card-container" style="--hue: 350; color: white">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/hairdresser-profile-picture.png" alt="#" />
+            </figure>
+
+            <table>
+              <tr>
+                <th>Colorist</th>
+              </tr>
+              <tr>
+                <td>Susan</td>
+              </tr>
+              <tr>
+                <td>Poe</td>
+              </tr>
+              <tr>
+                <td>555-1234</td>
+              </tr>
+              <tr>
+                <td>Susan@example.com</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="card-back">
+            <!-- only if the image is necessary -->
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/hairdresser-profile-picture.png" alt="#" />
+            </figure>
+
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card-container" style="--hue: 170; color: white">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/male-hair-stylist-picture.png" alt="Image 2" />
+            </figure>
+            <table>
+              <tr>
+                <th>Manager</th>
+              </tr>
+              <tr>
+                <td>Peter</td>
+              </tr>
+              <tr>
+                <td>Soe</td>
+              </tr>
+              <tr>
+                <td>555-1234</td>
+              </tr>
+              <tr>
+                <td>Peter@example.com</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="./images/male-hair-stylist-picture.png" alt="image-2" />
+            </figure>
+
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- can add svg here and remove these eight spans -->
+    </div>
+
+    
+   
+
+    <footer>
+      <div class="footer__left">
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__mid">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="./images/png-transparent-facebook-logo-facebook-computer-icons-logo-blog-facebook-icon-text-rectangle-symbol-thumbnail.png"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="./images/png-transparent-black-instagram-logo-computer-icons-logo-instagram-icon-design-signature-email-text-rectangle-number-thumbnail.png"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.treatwell.com" target="_blank">
+              <img
+                src="./images/png-transparent-treatwell-logo-thumbnail.png"
+                alt="Treatwell"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank">
+              <img
+                src="./images/png-transparent-logo-scalable-graphics-icon-twitter-logo-media-social-media-online-chat-thumbnail.png"
+                alt="Twitter"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__right">
+        <p>© 2023 Melyna Beauty Station. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
